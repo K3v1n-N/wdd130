@@ -8,10 +8,12 @@
 }
 
 
+/* removed 
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
 }
+  from this space  */
 
 .header {
     display: grid;
