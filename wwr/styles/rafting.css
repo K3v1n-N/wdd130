@@ -13,6 +13,13 @@ header {
     color: var(--accent2-color);
 }
 
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: var(--primary-color);
+}
 
 * {
     margin: 0;
