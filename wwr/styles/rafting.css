@@ -79,4 +79,27 @@ h1 {
     width: 125px;
 }
 
+/* rafting update 23nov025 for header and logo*/
+.nav ul {
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
+.nav a {
+    text-decoration: none;
+    color: aquamarine;
+    font-weight: bold;
+}
+
+/* footer update and layout change 23nov2025 */
+.footer {
+    text-align: right;
+    padding: 20px;
+}
+.footer img {
+    width: 30px;
+    margin-left: 10px;
+}
