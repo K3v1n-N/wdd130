@@ -47,6 +47,14 @@ h1, h2, h3 {
     color: var(--primary-color);
 }
 
+.center-h2 {
+    text-align: center; /* centers the h2 text */
+}
+
+.center-h3 {
+    text-align: center; /* centers the h3 text */
+}
+
 
 nav, p, section, article {
     margin: 16px;
