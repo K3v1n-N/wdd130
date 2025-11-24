@@ -84,6 +84,22 @@ h1, h2, h3 {
     margin-bottom: 10px;
 }
 */
+/* had to add code to remove blank space*/
+
+/* Remove default margin and padding for common elements */
+h2, h3, p, article {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add controlled spacing */
+section h3 {
+    margin-bottom: 20px; /* small, consistent spacing below the heading */
+}
+
+section article {
+    margin-top: 15px; /* space between heading and article content */
+}
 
 .center-h2 {
     text-align: center; /* centers the h2 text */
