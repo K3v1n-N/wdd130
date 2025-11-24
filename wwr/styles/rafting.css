@@ -106,12 +106,27 @@ section article {
 .center-h2 {
     text-align: center; /* centers the h2 text */
 }
-.mid-image {
-    display: block;       /* makes image behave as a block element */
-    margin: 20px auto;    /* centers it horizontally and adds spacing above/below */
-    max-width: 50%;       /* optional: responsive size */
+
+
+.text-image-container {
+    display: flex;
+    align-items: center; /* vertically aligns text with image */
+    justify-content: center;
+    gap: 20px; /* spacing between text and image */
+    flex-wrap: wrap; /* makes it responsive */
+}
+
+.text-image-container p {
+    flex: 1; /* each paragraph takes equal space */
+    min-width: 150px; /* ensures text doesn’t get too small on mobile */
+}
+
+.center-image {
+    max-width: 200px; /* controls image size */
     height: auto;
 }
+
+
 
 .center-h3 {
     text-align: center; /* centers the h3 text */
