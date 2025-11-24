@@ -106,6 +106,12 @@ section article {
 .center-h2 {
     text-align: center; /* centers the h2 text */
 }
+.mid-image {
+    display: block;       /* makes image behave as a block element */
+    margin: 20px auto;    /* centers it horizontally and adds spacing above/below */
+    max-width: 50%;       /* optional: responsive size */
+    height: auto;
+}
 
 .center-h3 {
     text-align: center; /* centers the h3 text */
