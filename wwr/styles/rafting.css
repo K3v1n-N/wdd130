@@ -106,6 +106,23 @@ section article {
 .center-h2 {
     text-align: center; /* centers the h2 text */
 }
+.paragraph-wrap {
+    display: flex;
+    align-items: center; /* vertically centers text with image */
+    justify-content: center;
+    gap: 10px;           /* space between text and image */
+    flex-wrap: wrap;      /* allows wrapping on small screens */
+}
+
+.text-left, .text-right {
+    max-width: 40%;      /* limits width of each text block */
+}
+
+.middle-image {
+    max-width: 150px;    /* size of the image */
+    height: auto;
+}
+
 
 .center-h3 {
     text-align: center; /* centers the h3 text */
