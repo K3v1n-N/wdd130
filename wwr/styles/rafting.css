@@ -107,24 +107,14 @@ section article {
     text-align: center; /* centers the h2 text */
 }
 
-
-.text-image-container {
-    display: flex;
-    align-items: center; /* vertically aligns text with image */
-    justify-content: center;
-    gap: 20px; /* spacing between text and image */
-    flex-wrap: wrap; /* makes it responsive */
-}
-
-.text-image-container p {
-    flex: 1; /* each paragraph takes equal space */
-    min-width: 150px; /* ensures text doesn’t get too small on mobile */
-}
-
-.center-image {
-    max-width: 200px; /* controls image size */
+.wrap-image {
+    float: left;           /* allows text to wrap around */
+    margin: 0 15px 15px 0; /* spacing around the image */
+    width: 200px;          /* adjust as needed */
     height: auto;
 }
+
+
 
 
 
