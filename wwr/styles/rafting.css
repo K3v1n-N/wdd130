@@ -76,11 +76,14 @@ h1, h2, h3 {
     max-width: 600px;
     margin: 20px auto 0;
 }
+
+/* had to remove 
 .hero article img {
     width: 100px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
+*/
 
 .center-h2 {
     text-align: center; /* centers the h2 text */
