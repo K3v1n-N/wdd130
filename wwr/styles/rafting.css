@@ -107,17 +107,6 @@ section article {
     text-align: center; /* centers the h2 text */
 }
 
-.wrap-image {
-    float: left;           /* allows text to wrap around */
-    margin: 0 15px 15px 0; /* spacing around the image */
-    width: 200px;          /* adjust as needed */
-    height: auto;
-}
-
-
-
-
-
 .center-h3 {
     text-align: center; /* centers the h3 text */
 }
