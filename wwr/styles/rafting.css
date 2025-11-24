@@ -52,6 +52,8 @@ h1, h2, h3 {
     position: relative;
     height: 100vh;
     overflow: hidden;
+    padding: 0; /* remove extra padding */
+    height: auto; /* only as tall as the content */
 }
 .hero img {
     width: 100%;
