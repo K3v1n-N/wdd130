@@ -153,6 +153,7 @@ h1 {
   margin: 0 15px 15px 0;   /* spacing around image */
   max-width: 200px;        /* adjust size */
   height: auto;             /* keep aspect ratio */
+  display: inline;   
 }
 
 /* h3 adventure awaits pics layout */
