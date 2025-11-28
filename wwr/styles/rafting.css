@@ -178,7 +178,8 @@ figure.photo {
 }
 
 figure.photo img {
-  display: block;       /* pushes caption below */
+  display: block;
+  margin: 0 auto;        /* pushes caption below */
   float: none;          /* prevents image from floating next to caption */
   max-width: 100%;      /* optional: keeps image responsive */
 }
@@ -188,6 +189,7 @@ figure.photo figcaption {
   margin-top: 6px;
   font-size: 0.9rem;
   color: #555;
+  text-align: center; 
 }  
 
 /* rafting update 23nov025 for header and logo*/
