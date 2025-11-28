@@ -149,10 +149,10 @@ h1 {
 /*h2 pic wraparound*/
 
 .inline-photo {
-  display: block;       /* ensures it sits on its own line */
-  margin: 10px auto;    /* centers the image horizontally */
-  max-width: 100%;      /* makes image responsive */
-  height: auto;
+  float: left;          /* image floats to the left side */
+  margin: 0 15px 15px 0; /* space on right and bottom so text doesn’t touch image */
+  max-width: 40%;       /* optional: adjust size of image */
+  height: auto;         /* maintain aspect ratio */
 }
 
 /* h3 adventure awaits pics layout */
