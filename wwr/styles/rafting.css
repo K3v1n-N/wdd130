@@ -148,16 +148,12 @@ h1 {
 }
 /*h2 pic wraparound*/
 
-.middle-image {
-  display: inline-block;    /* allows text on both sides */
-  vertical-align: middle;   /* aligns the image vertically with text */
-  margin: 0 10px;           /* spacing between image and text */
-}
-
-.middle-image img {
-  max-width: 150px;         /* adjust size */
+.wrap-image {
+  float: left;             /* float image to the left */
+  margin: 0 15px 15px 0;   /* spacing around the image */
+  max-width: 200px;        /* adjust size */
   height: auto;
-  display: block;
+  display: inline;         /* ensures text wraps correctly */
 }
 
 /* h3 adventure awaits pics layout */
