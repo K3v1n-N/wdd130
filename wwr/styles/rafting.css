@@ -148,12 +148,16 @@ h1 {
 }
 /*h2 pic wraparound*/
 
-.my-section img.wrap-image {
-  float: left;             /* only images with class wrap-image inside .my-section float */
-  margin: 0 15px 15px 0;   /* spacing around image */
-  max-width: 200px;        /* adjust size */
-  height: auto;             /* keep aspect ratio */
-  display: inline;   
+.middle-image {
+  display: inline-block;    /* allows text on both sides */
+  vertical-align: middle;   /* aligns the image vertically with text */
+  margin: 0 10px;           /* spacing between image and text */
+}
+
+.middle-image img {
+  max-width: 150px;         /* adjust size */
+  height: auto;
+  display: block;
 }
 
 /* h3 adventure awaits pics layout */
