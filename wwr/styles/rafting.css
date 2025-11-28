@@ -146,6 +146,14 @@ h1 {
     background-color: var(--accent1-color);
     color: antiquewhite; /*antique white*/
 }
+/*h2 pic wraparound*/
+
+.inline-photo {
+  display: block;       /* ensures it sits on its own line */
+  margin: 10px auto;    /* centers the image horizontally */
+  max-width: 100%;      /* makes image responsive */
+  height: auto;
+}
 
 /* h3 adventure awaits pics layout */
 
@@ -188,7 +196,7 @@ figure.photo figcaption {
   display: block;
   margin-top: 6px;
   font-size: 0.9rem;
-  color: #555;
+  color: var(--accent1-color);
   text-align: center; 
 }  
 
