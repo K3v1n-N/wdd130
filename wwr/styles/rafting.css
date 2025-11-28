@@ -147,6 +147,9 @@ h1 {
     color: antiquewhite; /*antique white*/
 }
 /*h2 pic wraparound*/
+h2 {
+    text-align: center;
+}
 
 .text-image-container {
   display: flex;
