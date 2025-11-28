@@ -171,39 +171,25 @@ h1 {
 
 /*adventure pics captions */
 
-  .figure1 {
-    text-align: center;
-    float: none;
-  }
+figure.photo {
+  display: block;       /* ensures caption goes below image */
+  margin: 20px auto;    /* centers each figure and adds spacing */
+  text-align: center;   /* centers caption under photo */
+}
 
-  .figcaption1 {
-    font-size: 0.9em;
-    color: #555;
-    margin-top: 5px;
-  }
+figure.photo img {
+  display: block;       /* pushes caption below */
+  float: none;          /* prevents image from floating next to caption */
+  max-width: 100%;      /* optional: keeps image responsive */
+}
 
- .figure2 {
-    text-align: center;
-    float: none;
-  }
+figure.photo figcaption {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: #555;
+}  
 
-  .figcaption2 {
-    font-size: 0.9em;
-    color: #555;
-    margin-top: 5px;
-  }
-
-  .figure3 {
-    text-align: center;
-    float: none;
-  }
-
-  .figcaption3 {
-    font-size: 0.9em;
-    color: #555;
-    margin-top: 5px;
-  }
- 
 /* rafting update 23nov025 for header and logo*/
 .nav ul {
     display: flex;
