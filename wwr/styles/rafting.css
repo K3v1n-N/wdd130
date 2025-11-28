@@ -173,6 +173,7 @@ h1 {
 
   .figure1 {
     text-align: center;
+    float: none;
   }
 
   .figcaption1 {
@@ -183,6 +184,7 @@ h1 {
 
  .figure2 {
     text-align: center;
+    float: none;
   }
 
   .figcaption2 {
@@ -193,6 +195,7 @@ h1 {
 
   .figure3 {
     text-align: center;
+    float: none;
   }
 
   .figcaption3 {
