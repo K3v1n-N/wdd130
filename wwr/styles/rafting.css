@@ -148,11 +148,11 @@ h1 {
 }
 /*h2 pic wraparound*/
 
-.inline-photo {
-  float: left;          /* image floats to the left side */
-  margin: 0 15px 15px 0; /* space on right and bottom so text doesn’t touch image */
-  max-width: 40%;       /* optional: adjust size of image */
-  height: auto;         /* maintain aspect ratio */
+.my-section img.wrap-image {
+  float: left;             /* only images with class wrap-image inside .my-section float */
+  margin: 0 15px 15px 0;   /* spacing around image */
+  max-width: 200px;        /* adjust size */
+  height: auto;             /* keep aspect ratio */
 }
 
 /* h3 adventure awaits pics layout */
