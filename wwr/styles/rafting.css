@@ -169,6 +169,38 @@ h1 {
     width: 125px;
 }
 
+/*adventure pics captions */
+
+  .figure1 {
+    text-align: center;
+  }
+
+  .figcaption1 {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 5px;
+  }
+
+ .figure2 {
+    text-align: center;
+  }
+
+  .figcaption2 {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 5px;
+  }
+
+  .figure3 {
+    text-align: center;
+  }
+
+  .figcaption3 {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 5px;
+  }
+ 
 /* rafting update 23nov025 for header and logo*/
 .nav ul {
     display: flex;
