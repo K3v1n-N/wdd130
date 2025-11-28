@@ -163,6 +163,12 @@ h1 {
   max-width: 200px;         /* adjust as needed */
   height: auto;
 }
+.my-section img {
+  float: left;
+  margin: 0 15px 15px 0;
+  max-width: 150px;  /* added or changed */
+  height: auto;
+}
 
 /* h3 adventure awaits pics layout */
 
