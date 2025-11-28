@@ -148,12 +148,20 @@ h1 {
 }
 /*h2 pic wraparound*/
 
-.wrap-image {
-  float: left;             /* float image to the left */
-  margin: 0 15px 15px 0;   /* spacing around the image */
-  max-width: 200px;        /* adjust size */
+.text-image-container {
+  display: flex;
+  align-items: flex-start;  /* aligns image and text at the top */
+  gap: 10px;                /* space between image and text */
+}
+
+.text-left,
+.text-right {
+  flex: 1;                  /* allow text to take available space */
+}
+
+.middle-image {
+  max-width: 200px;         /* adjust as needed */
   height: auto;
-  display: inline;         /* ensures text wraps correctly */
 }
 
 /* h3 adventure awaits pics layout */
