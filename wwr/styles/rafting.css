@@ -134,7 +134,73 @@ nav, p, section, article {
     width: 100%;
     height: auto;
 }
+/*for contact us page*/
+.hero {
+    text-align: center; /* centers ALL text inside the hero */
+    padding-top: 3rem;
+    padding-bottom: 1rem;         /* remove padding from the hero container if needed */
+}
 
+.hero p {
+    padding: 0;         /* remove padding from just the paragraph */
+    margin: 0;          /* optional: remove margins too if needed */
+}
+/*For contact us page, name email sign up*/
+
+.contact-form {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 1rem;
+}
+
+legend {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #2a6df4;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #1c50b3;
+}
 
 h1 {
     position: absolute;
@@ -251,3 +317,31 @@ figure.photo figcaption {
     color: black;
 }
 
+/*Google map embed contact page*/
+.contact-layout {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    margin-top: 1.5rem;
+}
+
+/* Map */
+.map-container {
+    flex: 1;
+}
+
+/* Form */
+.contact-form {
+    flex: 1;
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Responsive layout for mobile */
+@media (max-width: 768px) {
+    .contact-layout {
+        flex-direction: column;
+    }
+}
