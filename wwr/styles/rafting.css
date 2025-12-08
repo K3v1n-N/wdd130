@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #5ce67c; /* mint green*/   
+    --primary-color: #1ea751; /* Darkened the mint green*/   
     --secondary-color: #d35400; /* pumpkin spice*/
-    --accent1-color: #00ced1; /* turquoise blue*/
+    --accent1-color: #007c7d; /* Changed from turquoise to darker blue*/
     --accent2-color: #e1ad01; /* spicy mustard*/
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -32,7 +32,7 @@ header {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: #2a2a2a; /*Changed for contrast*/
 }
 
 
@@ -45,7 +45,7 @@ header, main, footer {
 
 h1, h2, h3, h4 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: #1ea751; /*Changed/darkened for contrast*/
 }
 
 /*Adding code to overlay h1 on hero image*/
@@ -211,7 +211,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: antiquewhite; /*antique white*/
+    color: #ffffff; /*changed from antique white*/
 }
 /*h2 pic wraparound*/
 h2, h4 {
@@ -300,7 +300,7 @@ figure.photo figcaption {
 
 .nav a {
     text-decoration: none;
-    color: aquamarine;
+    color: #003a2c;  /*Changed from aquamarine for contrast*/
     font-weight: bold;
 }
 
